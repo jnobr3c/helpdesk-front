@@ -7,7 +7,8 @@ import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-
 const routes: Routes = [
   {
     path: '', component: NavComponent, children: [
-      {path: 'home', component: HomeComponent}
+      {path: 'home', component: HomeComponent},
+      {path: 'tecnicos', component: TecnicoListComponent}
     ]
   }
 ];
